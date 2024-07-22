@@ -1,0 +1,23 @@
+.navbar{
+    height: 15vh;
+    background-color: #006aff;
+    color: #FFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 3rem;
+}
+
+.navbar ul li a{
+    font-size: 1.5rem;
+    color: #FFF;
+    transition: all .5s;
+}
+
+.navbar ul li a:hover{
+    color: #ffffff83;
+}

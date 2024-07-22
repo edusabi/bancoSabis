@@ -1,0 +1,71 @@
+.h1{
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.divCardCreate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.divCardCreate form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.divCardCreate form label{
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+
+.divCardCreate form label input, .divCardCreate form label select{
+    margin: .5rem 0;
+    padding: .3rem 1rem;
+    width: 300px;
+    font-size: 1.2rem;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+.divCardCreate button{
+    margin-top: 1rem;
+    cursor: pointer;
+    background-color: #006aff;
+    color: #fff;
+    letter-spacing: 1px;
+    border: none;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 3px;
+}
+
+.cardPosue{
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+}
+
+.button{
+    cursor: pointer;
+    background-color: #006aff;
+    color: #fff;
+    letter-spacing: 1px;
+    border: none;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 3px;
+}
+
+.containerButton{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,44 @@
+.containerPasswordCard{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.containerPasswordCard form{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.containerPasswordCard form label{
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+
+.containerPasswordCard form label input{
+    margin: .5rem 0;
+    padding: .3rem 1rem;
+    width: 300px;
+    font-size: 1.2rem;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+.containerPasswordCard button{
+    margin-top: .5rem;
+    cursor: pointer;
+    background-color: #006aff;
+    color: #fff;
+    letter-spacing: 1px;
+    border: none;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 3px;
+}

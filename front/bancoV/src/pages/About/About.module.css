@@ -1,0 +1,14 @@
+.div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    flex-direction: column;
+    gap: .7rem;
+}
+
+.div ol li{
+    list-style: decimal;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}

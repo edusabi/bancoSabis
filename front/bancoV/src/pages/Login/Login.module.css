@@ -1,0 +1,52 @@
+.containerLogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.containerLogin h1{
+    letter-spacing: 2px;
+}
+
+.containerLogin form{
+    margin-top: 5rem;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.containerLogin form label{
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+
+.containerLogin form label input{
+    margin: 1rem 0;
+    padding: .3rem 1rem;
+    width: 200px;
+    font-size: 1.2rem;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+.formButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formButton button{
+    cursor: pointer;
+    background-color: #006aff;
+    color: #fff;
+    letter-spacing: 1px;
+    border: none;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 3px;
+}

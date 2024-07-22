@@ -1,0 +1,239 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container a{
+    color: #fff;
+}
+
+.saldoConta{
+    font-size: 1.5rem;
+    position: absolute;
+    left: 100px;
+    top: 16%;
+    display: flex;
+    gap: .5rem;
+}
+
+.eyeMoney{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconsBanco{
+    font-size: 2rem;
+}
+
+.iconsBanco ul{
+    max-width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.iconsBanco p{
+    font-size: 1.3rem;
+}
+
+.iconsBanco ul{
+    display: flex;
+    gap: 8rem;
+    margin-top: 5rem;
+}
+
+.iconsBanco ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.FaPlus, .LuSmartphone, .SiPix, .IoEye{
+    cursor: pointer;
+}
+
+.FaPlus, .LuSmartphone, .SiPix, .seeCard, .addCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    padding: 1rem;
+    font-size: 3rem;
+    transition: all .5s;
+}
+
+.FaPlus:hover, .LuSmartphone:hover, .SiPix:hover, .seeCard:hover, .addCard:hover{
+    background-color: rgba(240, 248, 255, 0.3);
+}
+
+.modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 400px;
+    width: 700px;
+    transform: translate(-50% , -50%);
+    background-color: #ffffffeb;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+    transition: all 1s;
+}
+
+.modal input{
+    outline: none;
+    border: none;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.modal p{
+    font-size: 1.2rem;
+    letter-spacing: .7px;
+    font-weight: 600;
+}
+
+.modal form{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.modal form input{
+    text-align: center;
+}
+
+.modal form button{
+    padding: 1rem;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.modal input::-webkit-outer-spin-button,
+.modal input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.IoClose{
+    top: 10px;
+    right: 10px;
+    position: absolute;
+    color: #000;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.modalCredit{
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 400px;
+    width: 700px;
+    transform: translate(-50% , -50%);
+    background-color: #ffffffeb;
+    color: #000;
+    border-radius: 5px;
+}
+
+.modalPix{
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 400px;
+    width: 700px;
+    transform: translate(-50% , -50%);
+    background-color: #ffffffeb;
+    color: #000;
+    border-radius: 5px;
+}
+
+.modalCredit h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.modalCredit form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.modalCredit form label{
+    display: flex;
+    padding: .5rem;
+    gap: .2rem;
+    justify-content: start;
+    align-items: center;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+
+.divNumeroCell{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.numeroCell{
+    text-align: center;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+}
+
+.modalCredit button{
+    padding: 1rem;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.buttonCell{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.homeVazia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+
+.homeVazia div{
+    display: flex;
+    gap: 5rem;
+}
+
+.homeVazia div button{
+    border: none;
+    padding: .5rem 1rem;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    border-radius: 3px;
+    background-color:#006aff;
+}
+
+.homeVazia div button a{
+    color: #fff;
+}
